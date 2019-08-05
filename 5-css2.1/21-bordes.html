@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>bordes (Ancho,Estilo,color)</title>
+    <style>
+    section.box{
+        border-width: 4px;
+        border-style:solid ;
+        border-color: blue ;
+        height: 140px;
+        width: 280px;
+    }
+    section.box1{
+     border-top-width: thin;
+     border-right-width: thick;
+     border-bottom-width: 10px;
+     border-left-width: 20px;
+
+
+        border-width: thin thick 10px  20px;
+    }
+    section.box2{
+     border-top-color:orange;
+     border-right-color: blue;
+     border-bottom-color: aqua;
+     border-left-color: pink;
+
+     border-color: orange blue aqua pink;
+    }
+    section.box3{
+        border-top-style:solid;
+     border-right-style: dashed;
+     border-bottom-style: dotted;
+     border-left-style: double;
+    }
+section.box4{
+    border: 20px solid crimson;
+}
+    </style>
+</head>
+<body>
+    <h1>bordes (Ancho,Estilo,color)</h1>
+    <h3>Ancho:</h3>
+    <section class="box box1"></section>
+    <h3>Color:</h3>
+    <section class="box box2"></section>
+    <h3>estilo:</h3>
+    <section class="box box3"></section>
+    <h3>forma corta:</h3>
+    <section class="box box4"></section>
+</body>
+</html>
